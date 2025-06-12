@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @media screen and (max-width:767px){
-            .wrap{
-                width: 100%;
-            }
-        }
+    
         body{
             background-color: #222;
             margin: 0;
@@ -39,11 +35,21 @@
             font-size: 1.4em;
             text-align: center;
         }
-    </style>
+        @media screen and (max-width:767px){
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #222;
+            }
+            .wrap{
+                width: 100%;
+            }
+        }
+        </style>
 </head>
 <body>
     <div class="wrap">
-
+        
         <div class="title">
             <h1>별</h1>
         </div>
